@@ -1,0 +1,20 @@
+{
+    "name": "OpenWorldTerrain.Runtime",
+    "rootNamespace": "OpenWorldTerrain",
+    "references": [
+        "OpenWorld.Runtime",
+        "Unity.Mathematics",
+        "Unity.Collections",
+        "Unity.Burst",
+        "Unity.Splines"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

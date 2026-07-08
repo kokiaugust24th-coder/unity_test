@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ed16db202c4a474b9d2b355e163bbe3, type: 3}
+  m_Name: BakeCache
+  m_EditorClassIdentifier: OpenWorld.Editor::OpenWorld.EditorTools.BakeCache
+  entries:
+  - cellKey: always
+    hash: QPbHrDQNyufn33TqoOodAkLtXHk=
+  - cellKey: 0_0
+    hash: +4cBNz/Q9uD1o78n+1gaCfp6VF0=
+  - cellKey: -1_0
+    hash: 9ngtXhuF6VTq2A0y5cwh8gjpxTc=
+  - cellKey: -4_-4
+    hash: lHWijmXu7bc9HD4gN6Z12LtMYKo=
+  - cellKey: -4_-3
+    hash: XZ7YquuKygzZvZ0jd21WLdWna4w=
+  - cellKey: -4_-2
+    hash: FiUC8MFa0fSIqumOMe97xnlaE1A=
+  - cellKey: -4_-1
+    hash: 2vNfU3soZTaLVhZ1OPTv0mY0pVQ=
+  - cellKey: -4_0
+    hash: EGx+AELdOOHahvgETcji7yaYkwI=
+  - cellKey: -4_1
+    hash: T1/nPOXfvqfEyQbHvGXfZ6dJRt4=
+  - cellKey: -4_2
+    hash: aFAcjlO7OpXfIc06pfSAXMHrhps=
+  - cellKey: -4_3
+    hash: OZ72ownKgbQgzpvgvzTtT3/HOYA=
+  - cellKey: -3_-4
+    hash: 0jE08gLVG1nGddJ8MMPCNFE0ALE=
+  - cellKey: -3_-3
+    hash: zty0IVjONLPrjJB6EVYKwQbknG4=
+  - cellKey: -3_-2
+    hash: caDQzTd4uKxucGnUnpBY7mDejfE=
+  - cellKey: -3_-1
+    hash: JiRsDsE1Pfnqui9e9K816IwGHCM=
+  - cellKey: -3_0
+    hash: TzTYhuDpkqpM3R1GBFoVkUkSn/4=
+  - cellKey: -3_1
+    hash: 6iYc5mFabdlOgsNhkkQKzGtZ06Q=
+  - cellKey: -3_2
+    hash: 52V4P9IKNyU6gpDdHE8lzKdmBIg=
+  - cellKey: -3_3
+    hash: LF9ojOtjaa30oU47Bivj312QNC8=
+  - cellKey: -2_-4
+    hash: dN0T4brJRsOpCpdd6jMzGURgX2Q=
+  - cellKey: -2_-3
+    hash: VAJv0uFabtHgdsJVNA0cizFYNPI=
+  - cellKey: -2_-2
+    hash: X69dgWpCWyzz7zEQhmQhhWUmdMw=
+  - cellKey: -2_-1
+    hash: L2P/GUgiQYYUXwDHkrUZBEhgRD0=
+  - cellKey: -2_0
+    hash: GgowV+vUUqZLUD5vkxX1MjAh2Wc=
+  - cellKey: -2_1
+    hash: 2vdQ1U7s9zek1IjEIauIEqNnwLg=
+  - cellKey: -2_2
+    hash: z+zp0hmdhyNCqUu3YEHjjs4CaZ4=
+  - cellKey: -2_3
+    hash: 3racLkrkMs4aUlcFvWflAzrqKYI=
+  - cellKey: -1_-4
+    hash: yGWAkDHDtQpBxAsbhnv55PObCak=
+  - cellKey: -1_-3
+    hash: rZFK0uR3n/TVWJf5ZlBgJj3vVBo=
+  - cellKey: -1_-2
+    hash: 5uq2qf+WECGN4ymbbVuQUr2jN6U=
+  - cellKey: -1_-1
+    hash: ShtGURglTPHyZOE+jSm8SZaBfk0=
+  - cellKey: -1_1
+    hash: b0PDA80AJvIHtwZ4AFjge8b0ESQ=
+  - cellKey: -1_2
+    hash: nrOjlwNv8xb25HPmfj3zPPIhhpU=
+  - cellKey: -1_3
+    hash: 5H1BgsiifYpYLTA/ewCYnBlrj8o=
+  - cellKey: 0_-4
+    hash: yAy2IMNYeX/3KWcShpyvOJLT03c=
+  - cellKey: 0_-3
+    hash: xqOiUjHMVZHEXPIA7brjCoNWY9g=
+  - cellKey: 0_-2
+    hash: 0acutDJqePhu33dh/6QPWkyKJCQ=
+  - cellKey: 0_-1
+    hash: M35dUarbOoWekdLj9V4O9VTesY0=
+  - cellKey: 0_1
+    hash: thLhX0zR6UAJ2bYqUbE3/13fIPA=
+  - cellKey: 0_2
+    hash: uQL7ZOuFZKzpdn7Q9DH/HtY/qzY=
+  - cellKey: 0_3
+    hash: dOjjNKAXOs4hmFAksEe9fLBvL8Y=
+  - cellKey: 1_-4
+    hash: m0icD4yp26Uv+cIMf1Q1R27WA3I=
+  - cellKey: 1_-3
+    hash: SccbxkM/8uqpkv/Gcq3jqHPKmug=
+  - cellKey: 1_-2
+    hash: FUSSW+Pk3tmLU1gCwUHSxbxn+Oo=
+  - cellKey: 1_-1
+    hash: p/81J57oz0AeGe0ZYXIzXR4NJkg=
+  - cellKey: 1_0
+    hash: ANC+RJqmzWHL8SNfPBx37Jkn5J4=
+  - cellKey: 1_1
+    hash: QpASodSAeY6cd5szIR1ZumzeW6M=
+  - cellKey: 1_2
+    hash: uFi7Yo2IcCnXZ+TnPcqc1tqXxzA=
+  - cellKey: 1_3
+    hash: ABy2BK6yEMkNqjoPgrBtCXSaNGs=
+  - cellKey: 2_-4
+    hash: A2G9JBIRDI6DIwO/t7jZKoKzRNk=
+  - cellKey: 2_-3
+    hash: JnfhWo9mDoIdrxYlV/uYxnlYcto=
+  - cellKey: 2_-2
+    hash: 0PpW+E5VrYw4a2ovmHLI4dMfa5o=
+  - cellKey: 2_-1
+    hash: k6QRt/pp2EFTZDmu5Yj3SiW2b/A=
+  - cellKey: 2_0
+    hash: 0n20XK0bUZMgh5PQtYZpJiF2e/o=
+  - cellKey: 2_1
+    hash: bSNsZmD1EbbBRhncp9s2FxBn7Zc=
+  - cellKey: 2_2
+    hash: 8yQJtf7NdUDvMopWTWNPf9RNCiA=
+  - cellKey: 2_3
+    hash: sUBngOUY2tEqd/doWrFKWaPOpRs=
+  - cellKey: 3_-4
+    hash: WZRjmpBiRO/RB+znVp/BO7ddFLs=
+  - cellKey: 3_-3
+    hash: lfSAFAYlI2qzDerZ5nAgb2sSFc8=
+  - cellKey: 3_-2
+    hash: 8iVFVmDknmH/2zDGHsNzzPB3q8A=
+  - cellKey: 3_-1
+    hash: KHibu2M0GM8SjDoMGyIIZrGfVCY=
+  - cellKey: 3_0
+    hash: vMM3CtLCapWyxJQjRl2Jo98ya6A=
+  - cellKey: 3_1
+    hash: GstOMSS1srIGay2Obnn22D1Bg8s=
+  - cellKey: 3_2
+    hash: /WUCsbz+oVpF5qsi3sZIC+g2FKQ=
+  - cellKey: 3_3
+    hash: n3IYWcq5snxFrYWdDGY3pHudNNA=
+  - cellKey: 3_4
+    hash: 54+DrnlcV40rYfyYfJNguw3HdII=
+  - cellKey: 4_-4
+    hash: mELQWLiHzRbB5RDXnNp9godwcqo=
+  - cellKey: 4_-3
+    hash: TLPurThwFX49zgkEHDkW1CMkaWk=

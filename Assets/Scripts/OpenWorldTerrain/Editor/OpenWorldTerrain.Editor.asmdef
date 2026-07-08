@@ -1,0 +1,27 @@
+{
+    "name": "OpenWorldTerrain.Editor",
+    "rootNamespace": "OpenWorldTerrain.EditorTools",
+    "references": [
+        "OpenWorldTerrain.Runtime",
+        "OpenWorld.Runtime",
+        "OpenWorld.Editor",
+        "Unity.Mathematics",
+        "Unity.Collections",
+        "Unity.Burst",
+        "Unity.Splines",
+        "Unity.Addressables",
+        "Unity.ResourceManager",
+        "Unity.Addressables.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

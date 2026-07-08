@@ -1,0 +1,563 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb15c30062287114cb9daa60bcde37b9, type: 3}
+  m_Name: WorldManifest
+  m_EditorClassIdentifier: OpenWorld.Runtime::OpenWorld.WorldManifest
+  cellSize: 256
+  cells:
+  - x: -1
+    z: -1
+    alwaysLoaded: 1
+    address: ow_cell_always
+    hlodAddress: 
+    objectCount: 5
+    layerNames: []
+    contents: []
+  - x: 0
+    z: 0
+    alwaysLoaded: 0
+    address: ow_cell_0_0
+    hlodAddress: ow_hlod_0_0
+    objectCount: 15
+    layerNames: []
+    contents: []
+  - x: -1
+    z: 0
+    alwaysLoaded: 0
+    address: ow_cell_-1_0
+    hlodAddress: ow_hlod_-1_0
+    objectCount: 11
+    layerNames: []
+    contents: []
+  - x: -4
+    z: -4
+    alwaysLoaded: 0
+    address: ow_cell_-4_-4
+    hlodAddress: ow_hlod_-4_-4
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: -4
+    z: -3
+    alwaysLoaded: 0
+    address: ow_cell_-4_-3
+    hlodAddress: ow_hlod_-4_-3
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: -4
+    z: -2
+    alwaysLoaded: 0
+    address: ow_cell_-4_-2
+    hlodAddress: ow_hlod_-4_-2
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: -4
+    z: -1
+    alwaysLoaded: 0
+    address: ow_cell_-4_-1
+    hlodAddress: ow_hlod_-4_-1
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: -4
+    z: 0
+    alwaysLoaded: 0
+    address: ow_cell_-4_0
+    hlodAddress: ow_hlod_-4_0
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: -4
+    z: 1
+    alwaysLoaded: 0
+    address: ow_cell_-4_1
+    hlodAddress: ow_hlod_-4_1
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: -4
+    z: 2
+    alwaysLoaded: 0
+    address: ow_cell_-4_2
+    hlodAddress: ow_hlod_-4_2
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: -4
+    z: 3
+    alwaysLoaded: 0
+    address: ow_cell_-4_3
+    hlodAddress: ow_hlod_-4_3
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: -3
+    z: -4
+    alwaysLoaded: 0
+    address: ow_cell_-3_-4
+    hlodAddress: ow_hlod_-3_-4
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: -3
+    z: -3
+    alwaysLoaded: 0
+    address: ow_cell_-3_-3
+    hlodAddress: ow_hlod_-3_-3
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: -3
+    z: -2
+    alwaysLoaded: 0
+    address: ow_cell_-3_-2
+    hlodAddress: ow_hlod_-3_-2
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: -3
+    z: -1
+    alwaysLoaded: 0
+    address: ow_cell_-3_-1
+    hlodAddress: ow_hlod_-3_-1
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: -3
+    z: 0
+    alwaysLoaded: 0
+    address: ow_cell_-3_0
+    hlodAddress: ow_hlod_-3_0
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: -3
+    z: 1
+    alwaysLoaded: 0
+    address: ow_cell_-3_1
+    hlodAddress: ow_hlod_-3_1
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: -3
+    z: 2
+    alwaysLoaded: 0
+    address: ow_cell_-3_2
+    hlodAddress: ow_hlod_-3_2
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: -3
+    z: 3
+    alwaysLoaded: 0
+    address: ow_cell_-3_3
+    hlodAddress: ow_hlod_-3_3
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: -2
+    z: -4
+    alwaysLoaded: 0
+    address: ow_cell_-2_-4
+    hlodAddress: ow_hlod_-2_-4
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: -2
+    z: -3
+    alwaysLoaded: 0
+    address: ow_cell_-2_-3
+    hlodAddress: ow_hlod_-2_-3
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: -2
+    z: -2
+    alwaysLoaded: 0
+    address: ow_cell_-2_-2
+    hlodAddress: ow_hlod_-2_-2
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: -2
+    z: -1
+    alwaysLoaded: 0
+    address: ow_cell_-2_-1
+    hlodAddress: ow_hlod_-2_-1
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: -2
+    z: 0
+    alwaysLoaded: 0
+    address: ow_cell_-2_0
+    hlodAddress: ow_hlod_-2_0
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: -2
+    z: 1
+    alwaysLoaded: 0
+    address: ow_cell_-2_1
+    hlodAddress: ow_hlod_-2_1
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: -2
+    z: 2
+    alwaysLoaded: 0
+    address: ow_cell_-2_2
+    hlodAddress: ow_hlod_-2_2
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: -2
+    z: 3
+    alwaysLoaded: 0
+    address: ow_cell_-2_3
+    hlodAddress: ow_hlod_-2_3
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: -1
+    z: -4
+    alwaysLoaded: 0
+    address: ow_cell_-1_-4
+    hlodAddress: ow_hlod_-1_-4
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: -1
+    z: -3
+    alwaysLoaded: 0
+    address: ow_cell_-1_-3
+    hlodAddress: ow_hlod_-1_-3
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: -1
+    z: -2
+    alwaysLoaded: 0
+    address: ow_cell_-1_-2
+    hlodAddress: ow_hlod_-1_-2
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: -1
+    z: -1
+    alwaysLoaded: 0
+    address: ow_cell_-1_-1
+    hlodAddress: ow_hlod_-1_-1
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: -1
+    z: 1
+    alwaysLoaded: 0
+    address: ow_cell_-1_1
+    hlodAddress: ow_hlod_-1_1
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: -1
+    z: 2
+    alwaysLoaded: 0
+    address: ow_cell_-1_2
+    hlodAddress: ow_hlod_-1_2
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: -1
+    z: 3
+    alwaysLoaded: 0
+    address: ow_cell_-1_3
+    hlodAddress: ow_hlod_-1_3
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 0
+    z: -4
+    alwaysLoaded: 0
+    address: ow_cell_0_-4
+    hlodAddress: ow_hlod_0_-4
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 0
+    z: -3
+    alwaysLoaded: 0
+    address: ow_cell_0_-3
+    hlodAddress: ow_hlod_0_-3
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 0
+    z: -2
+    alwaysLoaded: 0
+    address: ow_cell_0_-2
+    hlodAddress: ow_hlod_0_-2
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 0
+    z: -1
+    alwaysLoaded: 0
+    address: ow_cell_0_-1
+    hlodAddress: ow_hlod_0_-1
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 0
+    z: 1
+    alwaysLoaded: 0
+    address: ow_cell_0_1
+    hlodAddress: ow_hlod_0_1
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 0
+    z: 2
+    alwaysLoaded: 0
+    address: ow_cell_0_2
+    hlodAddress: ow_hlod_0_2
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 0
+    z: 3
+    alwaysLoaded: 0
+    address: ow_cell_0_3
+    hlodAddress: ow_hlod_0_3
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 1
+    z: -4
+    alwaysLoaded: 0
+    address: ow_cell_1_-4
+    hlodAddress: ow_hlod_1_-4
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 1
+    z: -3
+    alwaysLoaded: 0
+    address: ow_cell_1_-3
+    hlodAddress: ow_hlod_1_-3
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 1
+    z: -2
+    alwaysLoaded: 0
+    address: ow_cell_1_-2
+    hlodAddress: ow_hlod_1_-2
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 1
+    z: -1
+    alwaysLoaded: 0
+    address: ow_cell_1_-1
+    hlodAddress: ow_hlod_1_-1
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 1
+    z: 0
+    alwaysLoaded: 0
+    address: ow_cell_1_0
+    hlodAddress: ow_hlod_1_0
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 1
+    z: 1
+    alwaysLoaded: 0
+    address: ow_cell_1_1
+    hlodAddress: ow_hlod_1_1
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 1
+    z: 2
+    alwaysLoaded: 0
+    address: ow_cell_1_2
+    hlodAddress: ow_hlod_1_2
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 1
+    z: 3
+    alwaysLoaded: 0
+    address: ow_cell_1_3
+    hlodAddress: ow_hlod_1_3
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 2
+    z: -4
+    alwaysLoaded: 0
+    address: ow_cell_2_-4
+    hlodAddress: ow_hlod_2_-4
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 2
+    z: -3
+    alwaysLoaded: 0
+    address: ow_cell_2_-3
+    hlodAddress: ow_hlod_2_-3
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 2
+    z: -2
+    alwaysLoaded: 0
+    address: ow_cell_2_-2
+    hlodAddress: ow_hlod_2_-2
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 2
+    z: -1
+    alwaysLoaded: 0
+    address: ow_cell_2_-1
+    hlodAddress: ow_hlod_2_-1
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 2
+    z: 0
+    alwaysLoaded: 0
+    address: ow_cell_2_0
+    hlodAddress: ow_hlod_2_0
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 2
+    z: 1
+    alwaysLoaded: 0
+    address: ow_cell_2_1
+    hlodAddress: ow_hlod_2_1
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 2
+    z: 2
+    alwaysLoaded: 0
+    address: ow_cell_2_2
+    hlodAddress: ow_hlod_2_2
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 2
+    z: 3
+    alwaysLoaded: 0
+    address: ow_cell_2_3
+    hlodAddress: ow_hlod_2_3
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 3
+    z: -4
+    alwaysLoaded: 0
+    address: ow_cell_3_-4
+    hlodAddress: ow_hlod_3_-4
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 3
+    z: -3
+    alwaysLoaded: 0
+    address: ow_cell_3_-3
+    hlodAddress: ow_hlod_3_-3
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 3
+    z: -2
+    alwaysLoaded: 0
+    address: ow_cell_3_-2
+    hlodAddress: ow_hlod_3_-2
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 3
+    z: -1
+    alwaysLoaded: 0
+    address: ow_cell_3_-1
+    hlodAddress: ow_hlod_3_-1
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 3
+    z: 0
+    alwaysLoaded: 0
+    address: ow_cell_3_0
+    hlodAddress: ow_hlod_3_0
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 3
+    z: 1
+    alwaysLoaded: 0
+    address: ow_cell_3_1
+    hlodAddress: ow_hlod_3_1
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 3
+    z: 2
+    alwaysLoaded: 0
+    address: ow_cell_3_2
+    hlodAddress: ow_hlod_3_2
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 3
+    z: 3
+    alwaysLoaded: 0
+    address: ow_cell_3_3
+    hlodAddress: ow_hlod_3_3
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 3
+    z: 4
+    alwaysLoaded: 0
+    address: ow_cell_3_4
+    hlodAddress: ow_hlod_3_4
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 4
+    z: -4
+    alwaysLoaded: 0
+    address: ow_cell_4_-4
+    hlodAddress: ow_hlod_4_-4
+    objectCount: 1
+    layerNames: []
+    contents: []
+  - x: 4
+    z: -3
+    alwaysLoaded: 0
+    address: ow_cell_4_-3
+    hlodAddress: ow_hlod_4_-3
+    objectCount: 1
+    layerNames: []
+    contents: []
+  layers:
+  - name: QuestA
+    initiallyEnabled: 0
