@@ -70,3 +70,7 @@ crashlytics-build.properties
 # TerrainAuthoring / OpenWorld tooling caches (project specific)
 /TerrainAuthoring/**/[Tt]emp/
 /TerrainAuthoring/**/[Oo]bj/
+
+# Stray temp artifacts
+/_writetest.txt
+/_t2.txt
