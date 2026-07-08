@@ -46,6 +46,7 @@ jobs:
           targetPlatform: WebGL
           buildMethod: WebGLDeploy.EditorTools.WebGLBuildScript.Build
           buildsPath: Builds
+          versioning: None
 
       - uses: actions/upload-artifact@v4
         with:
