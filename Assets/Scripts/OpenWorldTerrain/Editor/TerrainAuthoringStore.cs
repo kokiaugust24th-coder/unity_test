@@ -39,4 +39,11 @@ namespace OpenWorldTerrain.EditorTools
             height = br.ReadInt32();
             var bytes = br.ReadBytes(width * height * 4);
             data = new float[width * height];
-  
+            Buffer.BlockCopy(bytes, 0, data, 0, bytes.Length);
+            return true;
+        }
+
+        static string ToFullPath(string assetPath) =>
+            Path.Combine(Directory.GetCurrentDirectory(), assetPath);
+    }
+}

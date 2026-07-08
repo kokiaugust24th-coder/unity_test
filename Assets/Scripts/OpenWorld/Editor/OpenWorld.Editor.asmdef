@@ -1,0 +1,21 @@
+{
+    "name": "OpenWorld.Editor",
+    "rootNamespace": "OpenWorld.EditorTools",
+    "references": [
+        "OpenWorld.Runtime",
+        "Unity.Addressables",
+        "Unity.ResourceManager",
+        "Unity.Addressables.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

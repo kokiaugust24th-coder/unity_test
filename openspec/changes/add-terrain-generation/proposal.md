@@ -16,4 +16,6 @@
 
 - Affected specs: 新規 capability 5 件。add-open-world-core の world-streaming / world-asset-pipeline を拡張
 - Affected code: `Assets/Scripts/OpenWorld/Terrain/` 以下に新規 (Runtime / Editor)。既存コードへの破壊的変更なし
-- 依存: add-open-world-core (実装済み)、Unity Terrain、com.unity.splines、Burst + Mathematics + Collections。**外部有料ツールへ
+- 依存: add-open-world-core (実装済み)、Unity Terrain、com.unity.splines、Burst + Mathematics + Collections。**外部有料ツールへの依存なし**
+- 補助 (任意・無料): Unity Terrain Tools (公式無料) の侵食ブラシによる手仕上げ — 差分レイヤーで保護される。外部無料ツールの出力もインポート経由で利用可
+- 品質リスクの管理: 侵食のチューニングが最大の不確実性。フィールド可視化デバッガ、パラメータプリセット、参照地形との比較テストを仕様に含めて反復を高速化する (design.md 参照)
