@@ -1,0 +1,73 @@
+name: WebGL CI/CD
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+env:
+  UNITY_VERSION: 6000.5.2f1
+
+jobs:
+  test-and-build:
+    name: Test & Build WebGL
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/cache@v4
+        with:
+          path: Library
+          key: Library-${{ runner.os }}-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
+          restore-keys: |
+            Library-${{ runner.os }}-
+
+      - name: Run EditMode tests
+        uses: game-ci/unity-test-runner@v4
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        with:
+          unityVersion: ${{ env.UNITY_VERSION }}
+          testMode: EditMode
+          checkName: EditMode Test Results
+
+      - name: Build WebGL player
+        id: build
+        uses: game-ci/unity-builder@v4
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        with:
+          unityVersion: ${{ env.UNITY_VERSION }}
+          targetPlatform: WebGL
+          buildMethod: WebGLDeploy.EditorTools.WebGLBuildScript.Build
+          buildsPath: Builds
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: webgl-build
+          path: Builds/WebGL
+          retention-days: 7
+
+  deploy-cloudflare:
+    name: Publish to Cloudflare Pages
+    needs: test-and-build
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: webgl-build
+          path: Builds/WebGL
+
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: ${{ vars.CLOUDFLARE_PROJECT_NAME }}
+          directory: Builds/WebGL
